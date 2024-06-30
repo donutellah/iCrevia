@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCrevia</title>
+    <link rel="stylesheet" href="creep.css">
+</head>
+<body>
+    <div id="welcome-page">
+        <p class="welcome-message">Scream if you want to enter and brace yourself for the unknown...</p>
+        <img src="pic" alt="Welcome Image" class="welcome-image">
+        <button class="welcome-button" onclick="enterSite()">Ahhh!</button>
+    </div>
+    <div id="main-content" style="display: none;">
+        <header>
+
+        <div class="header-content">
+         
+            <h1>Creepy Facts and Cool Trivias</h1>
+            <p>Hello there, creepy weirdo! What the hell are you doing here? </br> Click on the buttons below to fetch something interesting.</p>
+        </div>
+    </header>
+    <main>
+        <section id="creepy-facts">
+            <h2>Creepy Fact</h2>
+            <p id="creepy-fact"></p>
+            <button class="creepy-fact-button" onclick="generateCreepyFact()">Get a Creepy Fact</button>
+        </section>
+        <section id="cool-trivia">
+            <h2>Cool Trivia</h2>
+            <div id="cool-trivia-list"></div>
+            <button class="cool-trivia-button" onclick="generateCoolTrivia()">Get Cool Trivia</button>
+        </section>
+    </main>
+    <script src="creepy.js"></script>
+</body>
+</html>
