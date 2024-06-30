@@ -1,0 +1,123 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.welcome-message {
+ 
+    color: white;
+    border: none;
+  
+}
+
+.welcome-image {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.welcome-button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.welcome-button:hover,
+.welcome-button:active {
+    background-color: #8B0000; 
+}
+
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+header .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+header .header-content img.logo {
+    width: 300px; /* Adjust width as needed */
+    display: block;
+    margin: 0 auto 1em; /* Center horizontally and add margin at the bottom */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 1em;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:active {
+    background-color: #555; /* Darker color when hovering or active */
+}
+
+button.creepy-fact-button:active {
+    background-color: #8B0000; /* Dark red when creepy fact button is active */
+}
+
+button.cool-trivia-button:active {
+    background-color: #8B0000; /* Dodger blue when cool trivia button is active */
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#cool-trivia-list {
+    margin-top: 1em; 
+}
+
+#cool-trivia-list p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
