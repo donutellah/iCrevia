@@ -1,6 +1,6 @@
 # iCrevia 👻
 
-I made **iCrevia** because I love creepy, weird, and interesting things — and I wanted a fun way to share them with anyone brave enough to click. 😈  
+I made **iCrevia** because I love creepy, weird, and interesting things — and I wanted a fun way to share them with anyone brave enough to click.  
 
 This interactive web project serves up **creepy facts** and **cool trivia**, with a little playful suspense thrown in for good measure.  
 
